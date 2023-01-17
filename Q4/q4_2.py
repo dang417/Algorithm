@@ -1,10 +1,10 @@
 n , x = map(int,input().split())
-a = list(map(int,input().split()))
-sol = []
+num = list(map(int,input().split()))
+number_of_correct = []
 for i in range(0,n) :
-    if a[i] < x :
-        sol.append(a[i])
+    if num[i] < x :
+        number_of_correct.append(num[i])
 
-a = ' '.join(str(s) for s in sol)
+num = ' '.join(str(s) for s in number_of_correct)
 
-print(a)
+print(num)
