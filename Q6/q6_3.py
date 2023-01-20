@@ -1,5 +1,7 @@
 #알파벳 중 단어 S에 포함되어 있는 경우
 #처음 등장하는 위치를
+#포문 돌리면 나중 값이 들어감
+
 #그렇지 않은 경우 -1 출력
 S = list(''.join(input()))
 #S의 각 알파벳을 리스트에 저장
@@ -8,6 +10,7 @@ alph_dict = {'a':-1,'b':-1,'c':-1,'d':-1,'e':-1,'f':-1,'g':-1,'h':-1,'i':-1,'j':
 
 for i in range(len(S)):
     if S[i] in alph_dict:
-        alph_dict[S[i]] = i
-        
-print(alph_dict)
+        alph_dict[S[i]] = S.index(S[i])
+        #list.index(value) : 리스트에서 밸류의 인덱스를 구함
+        # 여러개일 경우 처음으로 찾은 인덱스를 구함
+print(*alph_dict.values())
