@@ -16,52 +16,43 @@ for tc in range(1, t+1):
     
     n = int(input())
 
-    cnt = [0] * 1000
-    print(len(cnt))
+    cnt = [0] * 1001
     for n in range(1, n+1):
         # 버스 타입, A와 B 정류장 번호 입력
         n_list = list(map(int, input().split()))
-        print(n_list)
 
         # 일반 버스일때
         if n_list[0] == 1:
             for i in range(n_list[1], n_list[2]+1):
                 cnt[i] += 1
-            print(cnt)
         # 급행 버스일때
         elif n_list[0] == 2:
             if n_list[1] % 2 == 0:
                 for i in range(n_list[1], n_list[2]+1):
-                    if i+1 % 2 == 0:
+                    if i % 2 == 0:
                         cnt[i] += 1
-                print(cnt)
             else:
                 for i in range(n_list[1], n_list[2]+1):
-                    if i+1 % 2 != 0:
+                    if i % 2 != 0:
                         cnt[i] += 1
-                print(cnt)
         # 광역 버스일때
         elif n_list[0] == 3:
             if n_list[1] % 2 == 0:
                 for i in range(n_list[1], n_list[2]+1):
-                    if i+1 % 4 == 0:
+                    if i % 4 == 0:
                         cnt[i] += 1
-                print(cnt)
             else :
                 for i in range(n_list[1], n_list[2]+1+1):
-                    if i+1 % 3 == 0 and i+1 % 10 != 0:
+                    if i % 3 == 0 and i % 10 != 0:
                         cnt[i] += 1
-                print(cnt)
 
     max_cnt = 0
-    max_idx = 0
 
-    for i in range(1000):
-        if cnt[i] > max_cnt:
+    for i in range(999):
+        if cnt[i] >= max_cnt:
             max_cnt = cnt[i]
-            max_idx = i
 
-    print(f'#{tc} {max_idx}')
+    print(f'#{tc} {max_cnt}')
 
 
 
