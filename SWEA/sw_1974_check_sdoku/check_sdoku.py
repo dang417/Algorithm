@@ -4,25 +4,43 @@ sys.stdin = open('input.txt')
 t = int(input())
 
 for tc in range(1, t+1):
-    matrix = []
+    rows = []
+    cols = []
+    blocks = []
+    rlt = 1
+    # 스도쿠 행들만 모아서 리스트
     for i in range(9):
-        row = list(map(int,input().split()))
-        matrix.append(row)
-        for j in range(8):
-            if row[j] in row[j+1:]:
-                rlt = 0
-                break
-    for i in range(8):
+        row = list(map(int, input().split()))
+        rows.append(row)
+    # 스도쿠 열들만 모아서 리스트
+    for i in range(9):
+        col = []
         for j in range(9):
-            if matrix[i][j] in matrix[i+1:][j]:
+            col.append(rows[j][i])
+        cols.append(col)
+    # 행과 열 안에서 중복 검사
+    for i in range(9):
+        for j in range(8):
+            if rows[i][j] in rows[i][j+1:]:
                 rlt = 0
-                break
-    else: rlt = 1
+            if cols[i][j] in cols[i][j+1:]:
+                rlt = 0
+    # 스토쿠 블럭만 모아서 리스트
+    for l in (0, 3, 6):
+        for i in (0, 3, 6):
+            block = []
+            for j in range(3):
+                for k in range(3):
+                    block.append(rows[j+l][i + k])
+            blocks.append(block)
+    # 블럭 안에서 중복 검사
+    for i in range(9):
+        for j in range(8):
+            if blocks[i][j] in blocks[i][j+1:]:
+                rlt = 0
+    # 모두 아닐 경우 rlt = 1 유지
+    print(f'#{tc} {rlt}')
 
-    for i in (0, 3, 6):
-        
 
-    if rlt == 1:
-        print(1)
-    else :
-        print(0)
+
+
