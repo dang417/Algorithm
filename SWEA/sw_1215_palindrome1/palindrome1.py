@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_input.txt')
+sys.stdin = open('input.txt')
 
 def isPalindrome(str):
     a = len(str)
@@ -19,38 +19,31 @@ def isPalindrome(str):
         else:
             return False
 
+for tc in range(1, 11):
+    n = int(input())
+    mtx_row = [''] * 8
+    mtx_col = [''] * 8
+    cnt = 0
 
-t = int(input())
-
-for tc in range(1, t+1):
-    n, m = map(int,input().split())
-    mtx_row = [''] * n
-    mtx_col = [''] * n
-
-    for _ in range(n):
+    for _ in range(8):
         row = input()
         mtx_row[_] = row
 
-    for i in range(n):
-        for j in range(n):
+    for i in range(8):
+        for j in range(8):
             mtx_col[i] += mtx_row[j][i]
 
     # 가로 검사
     for rows in mtx_row:
-        for i in range(n-m+1):
-            if isPalindrome(rows[i:i+m]):
-                print(f'#{tc}', rows[i:i+m])
-                break
+        for i in range(8-n+1):
+            if isPalindrome(rows[i:i+n]):
+                cnt += 1
 
     # 세로 검사
     for cols in mtx_col:
-        for i in range(n-m+1):
-            if isPalindrome(cols[i:i+m]):
-                print(f'#{tc}', cols[i:i+m])
-                break
+        for i in range(8-n+1):
+            if isPalindrome(cols[i:i+n]):
+                cnt += 1
 
-
-
-
-
+    print(f'#{tc}', cnt)
 
