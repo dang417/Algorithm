@@ -19,7 +19,7 @@ for tc in range(1, t+1):
         row = ''.join(input().split())
         arr_row[i] = row
 
-    for i in range(n):
+    for i in range(m):
         col = ''
         for j in range(n):
             col += arr_row[j][i]
@@ -33,6 +33,7 @@ for tc in range(1, t+1):
             if rows[i] == '1':
                 i += 1
                 cnt += 1
+
             else:
                 i += 1
                 max_len.append(cnt)
@@ -48,6 +49,7 @@ for tc in range(1, t+1):
             if cols[i] == '1':
                 i += 1
                 cnt += 1
+
             else:
                 i += 1
                 max_len.append(cnt)
