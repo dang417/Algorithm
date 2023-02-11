@@ -57,7 +57,7 @@ for tc in range(1, 11):
         # a 가 99가 되어 사다리 내려가기가 끝나면
         # 그 때의 값이 2인지 확인하고 맞다면 결과 출력
         if matrix[a][b] == 2:
-            print(f'#{tc}',x)
+            print(f'#{tc}', x)
 
 
 

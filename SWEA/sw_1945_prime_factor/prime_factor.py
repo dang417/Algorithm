@@ -10,7 +10,6 @@ for i in range(2, 3300):
             break
     else:
         prime_num.append(i)
-print(prime_num)
 
 for tc in range(1, n+1):
     num = int(input())

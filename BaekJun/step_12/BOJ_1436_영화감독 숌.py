@@ -1,4 +1,6 @@
+
 # 666이 들어간 수를 작은 순서대로 정렬...
+
 end_of_world_list = []
 n = int(input())
 for i in range(666, 10000000):
