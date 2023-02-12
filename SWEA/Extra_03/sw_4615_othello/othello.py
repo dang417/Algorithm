@@ -42,12 +42,10 @@ for tc in range(1, t+1):
                     for k in range(y-1, j):
                         board[k][x-1] = p
                     break
+        scope = min(x-1, y-1)
+        # 왼쪽 위 검사.. y-1, x-1    
+        
+        # 왼쪽 아래 검사..
+        # 오른쪽 위 검사..
+        # 오른쪽 아래 검사..
 
-        # 대각선 적용
-        # 인덱스를 나가지 않으면서 대각선을 탐색하는 방법..
-        k = 0
-
-        board[y - 1][x - 1] = p
-        # 위쪽 검사
-        j in range(1, y):
-        j in range(1, 8-y):
