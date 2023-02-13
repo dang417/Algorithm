@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/sw_1224_calc3.iml" filepath="$PROJECT_DIR$/.idea/sw_1224_calc3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Stack/sw_4866_check_bracket/.idea/sw_4866_check_bracket.iml" filepath="$PROJECT_DIR$/../../Stack/sw_4866_check_bracket/.idea/sw_4866_check_bracket.iml" />
     </modules>
   </component>
 </project>
