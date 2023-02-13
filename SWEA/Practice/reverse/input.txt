@@ -1,0 +1,5 @@
+4
+algorithm
+life is short
+you need python
+SSAFY
