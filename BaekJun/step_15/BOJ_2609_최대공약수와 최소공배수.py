@@ -1,19 +1,20 @@
 a, b = map(int, input().split())
-if b > a:
-    a, b = b, a
 
-while True:
-    x, y = a, b
-    gcd = x % y
-    x = x // y
-    if y % gcd == 0:
-        break
-    x, y = y, x
+def gcd_r(a,b) :
+    if b == 0 :
+        return a
+    else :
+        return gcd_r(b,a%b)
 
-x = a // gcd
-y = b // gcd
+def gcd_for(a,b) :
+    while b > 0 :
+        tmp = a % b
+        a = b
+        b = tmp
+    return a
 
-lcm = x * y * gcd
+def lcm(a,b) :
+    return a*b//gcd_r(a,b)
 
-print(gcd)
-print(lcm)
+print(gcd_r(a,b))
+print(lcm(a,b))
