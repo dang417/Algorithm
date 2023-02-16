@@ -17,7 +17,6 @@ def RSP(left, right):
         else:
             return left
 
-
 def mergeSort(arr):
     if len(arr) == 1:
         return arr[0]
