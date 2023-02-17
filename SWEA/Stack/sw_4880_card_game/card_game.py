@@ -38,7 +38,7 @@ t = int(input())
 for tc in range(1, t+1):
     n = int(input())
     people = list(range(1, n + 1)) # 1 2 3 4 5
-    card = list(map(int, input().split()))
+    card = list(map(int, input().split())) # 1 2 3 1 3
     number = {} # 선수 등번호 : 그 사람이 들고있는 카드
 
     for i in range(n):
