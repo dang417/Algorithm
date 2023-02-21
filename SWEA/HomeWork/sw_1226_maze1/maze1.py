@@ -27,5 +27,5 @@ def BFS_maze(graph, n):
 
 for t in range(10):
     tc = int(input())
-    maze = [list(map(int,input())) for _ in range(100)]
-    print(f'#{tc}', BFS_maze(maze, 100))
+    maze = [list(map(int,input())) for _ in range(16)]
+    print(f'#{tc}', BFS_maze(maze, 16))
