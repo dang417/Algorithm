@@ -1,8 +1,6 @@
-So when I die (the [first] I will see in (heaven) is a score list).
-[ first in ] ( first out ).
-Half Moon tonight (At least it is better than no Moon at all].
-A rope may form )( a trail in a maze.
-Help( I[m being held prisoner in a fortune cookie factory)].
-([ (([( [ ] ) ( ) (( ))] )) ]).
- .
-.
+5
+12 7 9 15 5
+13 8 11 19 6
+21 10 26 31 16
+48 14 28 35 25
+52 20 32 41 49
