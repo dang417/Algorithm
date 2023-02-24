@@ -8,7 +8,7 @@ for tc in range(1, t+1):
     if n == 1:
         print(f'#{tc}', 1)
         continue
-    for i in range(1, n):
+    for i in range(1, n+1):
         if i ** 3 > n:
             print(f'#{tc}', -1)
             break
