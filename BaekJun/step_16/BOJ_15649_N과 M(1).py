@@ -4,6 +4,7 @@ sys.stdin = open('input.txt')
 def perm(arr):
     if len(arr) == m:
         print(*arr)
+        return
 
     for i in range(n):
         if not visited[i]:
