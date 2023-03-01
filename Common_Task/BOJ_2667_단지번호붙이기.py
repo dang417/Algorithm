@@ -1,6 +1,11 @@
 import sys
 sys.stdin = open('input.txt')
 
+# 델타 탐색을 진행하며 방문 기록 저장하고, 집의 개수를 +1
+# # 델타 탐색이 끝난 후 집의 개수를 rlt에 저장, 단지 수 +1
+# 단지의 개수 프린트
+# 단지의 개수만큼 rlt를 순회하며 집의 개수를 프린트
+
 from collections import deque
 
 def BFS(arr):
