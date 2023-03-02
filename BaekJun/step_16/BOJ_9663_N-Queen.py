@@ -1,1 +1,6 @@
-print(-(-(-3)//2))
+import sys
+sys.stdin = open('input.txt')
+
+n = int(input())
+
+for i in range(n):

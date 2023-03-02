@@ -38,8 +38,8 @@ tmp = list(map(int, input().split()))
 oper_list = deque([])
 operator = {'+' : tmp[0], '-' : tmp[1], '*' : tmp[2], '/' : tmp[3]}
 oper([])
-max_rlt = 0
-min_rlt = 10000000000
+max_rlt = -10000000001
+min_rlt = 10000000001
 
 for j in range(len(oper_list)):
     num = numbers[::]
