@@ -1,29 +1,19 @@
 import sys
 sys.stdin = open('input.txt')
 
+import sys
+input = sys.stdin.readline
+
 n = int(input())
-line = [[0, 0] for _ in range(n+1)]
-rlt_cnt = 0
+line = sorted([list(map(int, input().split())) for _ in range(n)])
 
-for i in range(1, n+1):
-    line[i][0], line[i][1] = map(int, input().split())
+dp = [1] * n
+for i in range(n):
+    for j in range(i):
+        if line[i][1] > line[j][1]:
+            # 만약 i,1 이 j,1 보다 크다면
+            # j의 증가하는 가장 긴 부분수열의 길이 + 1 과 현재 i의 길이를 비교해
+            # 더 긴쪽을 택함
+            dp[i] = max(dp[i], dp[j] + 1)
 
-while True:
-    line_dict = {i : 0 for i in range(501)}
-    for i in range(1, n+1):
-        for j in range(1, n+1):
-            if line[i][0] < line[j][0] and line[i][1] > line[j][1]:
-                line_dict[line[i][0]] += 1
-            elif line[i][0] > line[j][0] and line[i][1] < line[j][1]:
-                line_dict[line[i][0]] += 1
-
-    for i in range(1, n+1):
-        if line_dict[line[i][0]] == max(line_dict.values()):
-            line[i] = [0, 0]
-            break
-
-    if sum(line_dict.values()) == 0:
-        break
-    rlt_cnt += 1
-
-print(rlt_cnt)
+print(len(line) - max(dp))
