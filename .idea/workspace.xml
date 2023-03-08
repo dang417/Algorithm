@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa83c1eb-7399-4db6-985f-266f5a93472f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Common_Task/BOJ_20208_진우의 민트초코우유.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common_Task/BOJ_7576_토마토.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ETC/BOJ_2980_도로와 신호등.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common_Task/BOJ_16234_인구 이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common_Task/BOJ_16234_인구 이동.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common_Task/BOJ_2565_전깃줄.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common_Task/BOJ_2565_전깃줄.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common_Task/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Common_Task/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ETC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ETC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ETC/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ETC/input.txt" afterDir="false" />
-    </list>
+    <list default="true" id="aa83c1eb-7399-4db6-985f-266f5a93472f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
