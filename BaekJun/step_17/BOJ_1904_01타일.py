@@ -1,7 +1,8 @@
 import sys
 sys.stdin = open('input.txt')
 
-def
+def w(a, b, c):
+
 
 n = int(input())
 

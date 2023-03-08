@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28c5839e-e81b-4e9e-8b77-4f2de7305bb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../step_4/BOJ_10811_바구니 뒤집기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../step_4/BOJ_10813_공바꾸기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ_2743_단어 길이 재기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ_9086_문자열.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ_1065_한수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ_15596_정수 N개의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ_4673_셀프 넘버.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_10809_알파벳 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_1152_단어의 개수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_1157_단어 공부.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_11654_아스키 코드.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_11720_숫자의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_1316_그룹 단어 체커.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_2675_문자열 반복.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_2908_상수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_2941_크로아티아 알파벳.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step_6/BOJ_5622_다이얼.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Common_Task/BOJ_20208_진우의 민트초코우유.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Common_Task/BOJ_20208_진우의 민트초코우유.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2MgoZ67zrJoc627gtG2vIoJww7X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.BOJ_9086_문자열">
+    <configuration name="BOJ_2743_단어 길이 재기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="step_5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ_2743_단어 길이 재기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BOJ_9086_문자열" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="step_5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ_9086_문자열.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.BOJ_9086_문자열" />
+        <item itemvalue="Python.BOJ_2743_단어 길이 재기" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28c5839e-e81b-4e9e-8b77-4f2de7305bb1" name="Default Changelist" comment="" />
+      <created>1678198640894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678198640894</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d39e1493-4834-4d6c-afdc-7795851b3f7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Common_Task/BOJ_20208_진우의 민트초코우유.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Common_Task/BOJ_7576_토마토.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ_2980_도로와 신호등.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Common_Task/BOJ_16234_인구 이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Common_Task/BOJ_16234_인구 이동.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Common_Task/BOJ_2565_전깃줄.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Common_Task/BOJ_2565_전깃줄.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Common_Task/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Common_Task/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekJun/step_17/BOJ_1149_RGB거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekJun/step_4/BOJ_10811_바구니 뒤집기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekJun/step_4/BOJ_10813_공바꾸기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekJun/step_5/BOJ_2743_단어 길이 재기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekJun/step_5/BOJ_9086_문자열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ_1463_1로만들기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_17/BOJ_1904_01타일.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekJun/step_17/BOJ_1904_01타일.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_17/BOJ_9184_신나는 함수 실행.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekJun/step_17/BOJ_9184_신나는 함수 실행.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_17/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekJun/step_17/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_5/BOJ_1065_한수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_5/BOJ_15596_정수 N개의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_5/BOJ_4673_셀프 넘버.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_5/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_10809_알파벳 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_1152_단어의 개수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_1157_단어 공부.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_11654_아스키 코드.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_11720_숫자의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_1316_그룹 단어 체커.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_2675_문자열 반복.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_2908_상수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_2941_크로아티아 알파벳.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekJun/step_6/BOJ_5622_다이얼.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Common_Task/BOJ_20208_진우의 민트초코우유.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Common_Task/BOJ_20208_진우의 민트초코우유.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
     </list>
@@ -38,7 +56,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.BOJ_2980_도로와 신호등">
+  <component name="RunManager" selected="Python.BOJ_1463_1로만들기">
+    <configuration name="BOJ_1463_1로만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ETC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ_1463_1로만들기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BOJ_1759_암호 만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BOJ_1463_1로만들기" />
         <item itemvalue="Python.BOJ_2980_도로와 신호등" />
         <item itemvalue="Python.BOJ_1759_암호 만들기" />
       </list>
@@ -128,6 +168,11 @@
           <url>file://$PROJECT_DIR$/BOJ_2980_도로와 신호등.py</url>
           <line>8</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BOJ_1463_1로만들기.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
