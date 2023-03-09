@@ -1,36 +1,16 @@
 import sys
 sys.stdin = open('input.txt')
 
-def DFS(i, j, cnt, tmp):
-    global rlt
-    if tmp > rlt:
-        return
-    if cnt == N:
-        if rlt >= tmp:
-            rlt = tmp
-        return
-    x, y = i, j
-    for z in (x, 6 - (x + y)):
-        tmp_1 = tmp
-        tmp_1 += house[cnt][z]
-        x = y
-        y = z
-        DFS(x, y, cnt + 1, tmp_1)
+n = int(input())
+house = [list(map(int, input().split())) for _ in range(n)]
 
-N = int(input())
-house = [0] * N
-rlt = 1000000000000000
+dp = [[0] * 3 for _ in range(n)]
 
-for i in range(N):
-    house[i] = [0] + list(map(int, input().split()))
+dp[0][0], dp[0][1], dp[0][2] = house[0][0], house[0][1], house[0][2]
 
-for i in range(1, 4):
-    for j in range(1, 4):
-        if i != j:
-            sum_num = house[0][i] + house[1][j]
-            DFS(i, j, 2, sum_num)
+for i in range(1, n):
+    dp[i][0] = min(dp[i-1][1] + house[i][0], dp[i-1][2] + house[i][0])
+    dp[i][1] = min(dp[i-1][0] + house[i][1], dp[i-1][2] + house[i][1])
+    dp[i][2] = min(dp[i-1][0] + house[i][2], dp[i-1][1] + house[i][2])
 
-print(rlt)
-# DFS 로 풀기
-# 1번집과 2번집의 색을 정한다
-# R, G, R, B, G, R, G, B, B, R, B, G
+print(min(dp[n-1][0], dp[n-1][1], dp[n-1][2]))

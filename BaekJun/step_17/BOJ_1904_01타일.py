@@ -2,11 +2,11 @@ import sys
 sys.stdin = open('input.txt')
 
 n = int(input())
-dp = [0] * 1000001
-dp[1] = 1
-dp[2] = 2
+num = list(map(int, input().split()))
+dp = [0] * n
+dp[0] = num[0]
 
-for i in range(3, 1000001):
-    dp[i] = ((dp[i-1] % 15746) + (dp[i-2] % 15746)) % 15746
+for i in range(n):
+    dp[i] = max(dp[i-1]+num[i], num[i])
 
-print(dp[n])
+print(max(dp))
